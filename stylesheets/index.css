@@ -1,0 +1,25 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.white-text{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+
+.bg-color {
+    background-color: #93278f;
+    border-radius: 10px;
+}
+
+#my-self {
+    padding: 17px 94px;
+    position: relative;
+    top: 50px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
