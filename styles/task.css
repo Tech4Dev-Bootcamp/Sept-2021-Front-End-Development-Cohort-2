@@ -38,6 +38,9 @@ body{
 .navigation-link-block{
     padding: 0 40px;
 }
+.navigation-link{
+    text-decoration: none;
+}
 .page-body-wrapper{
     padding: 5% 5% 0;
 }
@@ -131,4 +134,50 @@ body{
     color:rgba(147, 39, 143, 1);
     font-weight: 900;
     line-height: 1.0em;
+}
+#hobbies-section{
+    width: 100%;
+    padding: 5% 0;
+}
+.hobbies-header-box{
+    width: 100%;
+    padding: 20px 0;
+}
+.hobbies-heading{
+    text-align: center;
+    color: rgba(147, 39, 143, 1);
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.hobbies-blocks-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hobbies-block{
+    width: 22%;
+    margin: 20px;
+    position: relative;
+}
+.hobby-display-image-block{
+    width: 100%;
+}
+.hobby-display-image{
+    height: 300px;
+    max-width: 100%;
+    /* height: 350px; */
+    border-radius: 20px;
+}
+.hobby-title{
+    background-color: rgba(8, 80, 115, 0.97);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    width: 50%;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    text-align: center;
 }
