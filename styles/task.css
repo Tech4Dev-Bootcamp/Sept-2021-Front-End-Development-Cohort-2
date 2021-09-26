@@ -1,7 +1,4 @@
-
-@import url('http://fonts.cdnfonts.com/css/segoe-ui-4');
-
-                
+/* Resetting Default styles with universal selector */
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +8,8 @@ body{
     font-family: 'Segoe UI', sans-serif;
     width: 100%;                                         
 }
+
+/* Header and Main Navigation Styles */
 
 .header-section{
     background-color: #085073;
@@ -41,9 +40,13 @@ body{
 .navigation-link{
     text-decoration: none;
 }
+
+/* Main section with its subsections */
 .page-body-wrapper{
     padding: 5% 5% 5%;
 }
+
+/* First display subsection and styles */
 .display-section{
     display: flex;
     align-items: center;
@@ -96,6 +99,8 @@ body{
     margin: 0 auto;
     color:rgba(255, 255, 255, 1);
 }
+
+/* Background subsection and styles */
 #background-section{
     padding: 7.5% 5% 0 0;
     display: flex;
@@ -135,6 +140,8 @@ body{
     font-weight: 900;
     line-height: 1.0em;
 }
+
+/* Hobbies subsection and styles */
 #hobbies-section{
     width: 100%;
     padding: 5% 0;
@@ -184,6 +191,7 @@ body{
     border-radius: 10px;
     text-align: center;
 }
+/* Contact subsection and styles */
 #contact-me-section{
     width: 100%;
 }
@@ -216,6 +224,7 @@ body{
     justify-content: center;
 
 }
+/* Social icons and styles */
 .social-blocks-wrapper{
     width: 100%;
 }
@@ -260,6 +269,7 @@ body{
     height: 650px;
     border-right: 3px solid rgba(8, 80, 115, 1);
 }
+/* contact form styles */
 .contact-form-wrapper{
     border: 3px solid rgba(147, 39, 143, 1);
     border-radius: 10px;
@@ -311,6 +321,7 @@ body{
     font-size: 25px;
     border: none;
 }
+/* Main footer section and styles */
 .footer-section{
     width: 100%;
     padding: 30px 0;
