@@ -42,7 +42,7 @@ body{
     text-decoration: none;
 }
 .page-body-wrapper{
-    padding: 5% 5% 0;
+    padding: 5% 5% 5%;
 }
 .display-section{
     display: flex;
@@ -258,7 +258,7 @@ body{
     border: 3px solid rgba(147, 39, 143, 1);
     border-radius: 10px;
     width: 50%;
-    padding: 80px 40px 0;
+    padding: 140px 40px 0;
     height: 900px;
     box-shadow: 5px 10px 10 #93278F;
 }
@@ -287,7 +287,7 @@ body{
     height: 300px;
     font-size: 25px;
     font-weight: 700;
-    padding: 150px 0 150px 40px;
+    padding: 130px 0 0 40px;
     border: 2px solid rgba(8, 80, 115, 1);
     color: rgba(8, 80, 115, 1);
     overflow: hidden;
@@ -304,5 +304,18 @@ body{
     color: white;
     font-size: 25px;
     border: none;
-
+}
+.footer-section{
+    width: 100%;
+    padding: 30px 0;
+    background-color: rgba(8, 80, 115, 1);
+}
+.footer-text-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.footer-text{
+    color:rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
 }
