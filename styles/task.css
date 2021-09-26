@@ -24,7 +24,7 @@ body{
 }
 .navigation-menu{
     width: 100%;
-    padding: 30px 20px;
+    padding: 30px 20px 40px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -157,8 +157,11 @@ body{
 }
 .hobbies-block{
     width: 22%;
+    height: 300px;
     margin: 20px;
     position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px  rgba(8, 80, 115, 0.97);
 }
 .hobby-display-image-block{
     width: 100%;
@@ -180,6 +183,9 @@ body{
     left: 0;
     border-radius: 10px;
     text-align: center;
+}
+#contact-me-section{
+    width: 100%;
 }
 .contact-me-wrapper{
     display: flex;
@@ -260,7 +266,7 @@ body{
     width: 50%;
     padding: 140px 40px 0;
     height: 900px;
-    box-shadow: 5px 10px 10 #93278F;
+    box-shadow: 0px 5px 10px rgba(147, 39, 143, 0.5);
 }
 .contact-form{
     width: 100%;
