@@ -139,11 +139,11 @@ body{
     width: 100%;
     padding: 5% 0;
 }
-.hobbies-header-box{
+.hobbies-header-box, .contact-header-box{
     width: 100%;
-    padding: 20px 0;
+    padding: 40px 0;
 }
-.hobbies-heading{
+.hobbies-heading, .contact-heading{
     text-align: center;
     color: rgba(147, 39, 143, 1);
     font-size: 80px;
@@ -180,4 +180,129 @@ body{
     left: 0;
     border-radius: 10px;
     text-align: center;
+}
+.contact-me-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-description-wrapper{
+    width: 40%;
+}
+.contact-details-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-details-block{
+    width: 80%;
+    height: 200px;
+    background-color: rgba(8, 80, 115, 0.36);
+    color: rgba(8, 80, 115, 1);
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.social-blocks-wrapper{
+    width: 100%;
+}
+.social-heading{
+    color: rgba(8, 80, 115, 1);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.social-icons-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.social-link-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px dashed rgba(147, 39, 143, 1);
+    background-color: rgba(147, 39, 143, 0.11);
+
+}
+.social-link{
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.social-icon{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+.middle-box{
+    width: 2px;
+    height: 650px;
+    border-right: 3px solid rgba(8, 80, 115, 1);
+}
+.contact-form-wrapper{
+    border: 3px solid rgba(147, 39, 143, 1);
+    border-radius: 10px;
+    width: 50%;
+    padding: 80px 40px 0;
+    height: 900px;
+    box-shadow: 5px 10px 10 #93278F;
+}
+.contact-form{
+    width: 100%;
+}
+.input-box{
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(8, 80, 115, 1);
+    color: rgba(8, 80, 115, 1);
+    outline: none;
+}
+::placeholder { 
+    color: rgba(8, 80, 115, 1);
+    opacity: 1; 
+}
+.message-box{
+    display: block;
+    width: 100%;
+    height: 300px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 150px 0 150px 40px;
+    border: 2px solid rgba(8, 80, 115, 1);
+    color: rgba(8, 80, 115, 1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.form-btn-block{
+    width: 100%;
+    text-align: end;
+}
+.form-btn{
+    padding: 20px 80px;
+    background-color: rgba(147, 39, 143, 1);
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    border: none;
+
 }
