@@ -1,0 +1,131 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #085073;
+  padding: 5px 10px;
+}
+
+.header a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 0px;
+  text-decoration: none;
+}
+
+.header a.name {
+  font-size: 25px;
+  font-weight: bold;
+  float: left;
+}
+
+#Holder {
+  /* display: inline; */
+  color: white;
+  text-transform: capitalize;
+  background-color: #085073;
+  /* width: 500px;  */
+  float: right;
+  margin-right: 10%;
+  border-top-right-radius: 150px;
+  border-bottom-left-radius: 150px;
+  padding: 100px;
+  margin-top: 20px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-size: 90px; */
+  text-align: center;
+  margin-left: 10%;
+  /* margin-left: 530px; */
+}
+
+#portraitHolder {
+  /* display: inline; */
+  width: 250px;
+  /* float: left; */
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 10%;
+  margin-top: 20px;}
+
+  /* margin-top: -350px; */
+  /* top: 301px; */
+  /* left: 250px; */
+  /* margin-right: 800px; */
+  /* margin-bottom: 1000px; */
+
+  .container {
+    display: inline;
+    width: 100%;
+  }
+  
+
+.circle-overlaping::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color:#cf76cc;
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+}
+
+.circle-overlaping::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 40px;
+  background-color: blue;
+  width: 350px;
+  height:3500px;
+  border-radius: 50%;
+}
+
+#About {
+  background-color: #085073;
+  width: 40%;
+  /* height: 380px; */
+  border-radius: 20px;
+  margin-top: 600px;
+  margin-left: 20px;
+  color: white;
+  font-weight: bold; 
+  text-align: center;
+  font-size: 20px;
+  padding-top: 150px;
+  line-height: 23px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* display: inline; */
+}
+
+#cooking{
+height: 439px;
+width: 401px;
+/* left: 81px; */
+/* top: 2520px; */
+border-radius: 20px;
+}
+
+#reading{
+  height: 439px;
+width: 401px;
+/* left: 541px; */
+/* top: 2520px; */
+border-radius: 20px;
+}
+
+#dancing{
+  height: 439px;
+width: 401px;
+/* left: 1001px;
+top: 2520px; */
+border-radius: 20px;
+}
