@@ -106,7 +106,9 @@ h5{
   border: 3px;
   border-radius: 10px;
 }
-
+hr{
+  box-shadow: 2px 2px 3px 3px rebeccapurple;
+}
 #heading{
   color: rgb(114, 5, 114);
   text-align: center;
@@ -145,8 +147,9 @@ h5{
   font-weight: bolder;
 }
 #background{
-   border-left: 2px solid #085073;
-   border-right: 2px solid #085073;
+   border-left: 5px solid rebeccapurple;
+   border-right: 5px solid rebeccapurple;
+   /* box-shadow: 2px 2px 3px 3px rebeccapurple; */
 }
 .background{
   padding: 50px;
