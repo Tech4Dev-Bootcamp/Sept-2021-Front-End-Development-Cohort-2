@@ -135,7 +135,7 @@ border-radius: 20px;
   font-size: 30px;
   font-family: sans-serif;
   font-weight: bold;
-  color: #A12C9E;
+  color: blueviolet;
 }
 
 .content4 {
@@ -177,9 +177,9 @@ border-radius: 20px;
 .frm {
   margin-left: 20px;
   padding: 10px;
-  border: 2px solid #a12c9e;
+  border: 2px solid blueviolet;
   border-radius: 10px;
-  box-shadow: 0px 1px 9px #a12c9e;
+  box-shadow: 0px 1px 9px blueviolet;
   float: left;
 }
 
@@ -199,10 +199,20 @@ border-radius: 20px;
 }
 
 .frm button {
-  background-color: #a12c9e;
+  background-color: blueviolet;
   margin-left: 192px;
   width: 170px;
   height: 40px;
   border-radius: 8px;
-  box-shadow: 0px 1px 15px #a12c9e;
+  box-shadow: 0px 1px 15px blueviolet;
+}
+
+.footer {
+  background-color: #075073;
+  margin-top: 60px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: sans-serif;
 }
