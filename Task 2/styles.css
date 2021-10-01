@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-block: 0;
+    padding-inline: 0;
+    margin-block: 0;
+    margin-inline: 0;
+}
+#nav{
+    padding: 25px 60px 25px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg_color{
+    background-color: #085073;
+}
+
+.text{
+    color: white;
+}
+
+#list{
+display: flex;
+list-style-type: none;
+
+}
+
+#list > l1{
+    margin-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #4fb7eb;
+}
+
+/* Hey,Vic
+the order for the effect is link, visited, hover and then active. 
+Just in case */
+
+#hero {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 120px;
+}
+
+#vic {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 15vw;
+}
+.inner-circle{
+    background-color: rgba(147, 39, 143, 0.11);
+    padding: 20px;
+    border-radius: 20vw;
+}
+.next-circle{
+    background-color: rgba(147, 39, 143, 0.11);
+    padding: 20px;
+    border-radius: 20vw;
+}
+h1 {
+    text-transform: uppercase;
+    color: white;
+}
+#welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 100px;
+    border-bottom-left-radius: 12vw;
+    border-top-right-radius: 12vw;
+}
+#left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 0 55% 0 5%;
+    margin-bottom: 50px;
+}
+p{
+    color: white;
+    padding: 70px;
+    font-weight: 300;
+}
+h2{
+    text-align: center;
+    color: #93278F;
+    text-transform: uppercase;
+}
