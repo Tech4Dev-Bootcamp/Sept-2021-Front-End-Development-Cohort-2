@@ -43,6 +43,25 @@ body{
 #items-container > li{
     margin-left:30px;
 }
+a {
+    color:#93287f;
+}
+
+a:hover {
+    color:aquamarine;
+}
+
+a:focus{
+    color:brown;
+}
+
+a:visited {
+    color:purple;
+}
+
+a:active {
+    color:red;
+}
 
 #home{
     display: flex;
@@ -68,7 +87,7 @@ body{
     
 }
 
-#background{
+#Background{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -122,12 +141,20 @@ body{
     justify-content: center;
     margin: 25px;
     margin-right: 170px;
-    padding:10px;
+    padding:20px;
     width: 500px;
     height:33vw;
     border: 3px solid #93287f;
     box-shadow: 0px 5px 10px #93287f;
     border-radius: 10px;
+}
+input::placeholder{
+    color:#085073;
+}
+
+textarea::placeholder{
+    color: #085073;
+    
 }
 
 hr{
