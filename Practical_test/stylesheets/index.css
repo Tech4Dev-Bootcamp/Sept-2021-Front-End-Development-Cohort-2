@@ -87,7 +87,7 @@ a:active {
     
 }
 
-#Background{
+#background{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -115,7 +115,7 @@ a:active {
     
 }
 
-#info{
+.info{
     width: 15vw;
     height: 10vw;
     margin: 35px;
