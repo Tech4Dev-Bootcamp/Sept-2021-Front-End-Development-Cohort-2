@@ -9,17 +9,19 @@ padding: 10px 13px;
 a{
     color: white;
 }
-.page1{
+ .page1{
     display: flex;
 flex-direction: row;
 justify-content: space-between;
-}
+} 
+
 .page2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;  
 }
-#myself{
+
+#myself{      
     width: 400px;
     height: 200px;
     display: inline-block;
@@ -28,7 +30,8 @@ color: white;
 border-style: solid;
 display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; 
+ 
 }
 #bg2{
     
@@ -37,69 +40,61 @@ display: flex;
 #form{
    margin-left: 80%; 
 }
-
-
-/* .intro{
-    background-color: #085073;
-    color: white;
-}
-a{
-    color: white;
-}
-.myself{
-    width: 400px;
-    height: 200px;
-    display: inline-block;
-    background: #085073;
-color: white;
-border-style: solid;
-}
-h2{
-    color: #93278F;
-    font-size: large;
-    font-weight: bold;
-}
-h4{
-color: #93278F;
-font-weight: bold;
-font-size: large;
-}
-#form{
-    
-}
-#names{
-    width: 60px;
-    height: 30px;
-    display: inline-block;
-    background: #93278F;
-   
-}
-#num{
-    width: 80px;
-    height: 30px;
-    display: inline-block;
-    background: #93278F;
-   
-}
-#res{
-    width: 80px;
-    height: 30px;
-    display: inline-block;
-    background: #93278F;
-   
-}
 h5{
     color: white;
-    font-size: larger;
-    font-weight: 400px;
-    padding-top: 50px;
-    padding-left: 20px;
-    /*margin-top: 400%;
-    margin-left: 800px;*/
+    font-size: large;
+    font-weight: bold;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+.form{
+    float: right;
+}
+@media screen and (min-width:776px) {
+    body{
+        background-color: wheat;
+    }
+}
+.animation-overlay{
+    animation: overlay 10s  forwards;
     
-/* }
-h6{
-    background-color: #085073;
-      color: white;
-      align-content: center;
-} */ 
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes overlay {
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* #header{
+
+    transition: all 2s linear;
+}
+
+@keyframes move {
+    0%{
+        color: aqua;
+        transform: translateX(150px);
+    }
+    100%{
+color: red;
+transform: translateX(150px);
+    }
+} */
