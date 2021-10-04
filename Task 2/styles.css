@@ -18,7 +18,7 @@
 }
 
 .bg_color{
-    background-color: #085073;
+    background-color: #085073F7;
 }
 
 .text{
@@ -54,7 +54,7 @@ Just in case */
     padding: 100px 120px;
 }
 
-#vic {
+#image {
     width: 25vw;
     height: 25vw;
     border-radius: 15vw;
@@ -88,10 +88,9 @@ h1 {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    padding: 0 55% 0 5%;
-    margin-bottom: 50px;
+    padding: 0 55% 0 5%;    
 }
-p{
+#left p{
     color: white;
     padding: 70px;
     font-weight: 300;
@@ -100,4 +99,152 @@ h2{
     text-align: center;
     color: #93278F;
     text-transform: uppercase;
+    padding-top: 30px;
 }
+#tiles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.card{
+    flex-grow: 1;
+    width: 22%;
+    height: 200px;
+    min-width: 250px;
+    margin: 10px;
+}
+.card p{
+    width: 50%;
+    /* height: 20%; */
+    text-align: center;
+    padding: 5px;
+    /* border: 1px solid red; */
+    color: white;
+    background-color: #085073F7;
+}
+.Football{
+    background-image: url('assets/soccer-g34e9750e9_1920.jpg');
+    background-size: cover;
+}
+.Reading{
+    background-image: url('assets/reading-gcebfe8a71_1920.jpg');
+    background-size: cover;
+}
+.Chess{
+    background-image: url('assets/board-game-gd5b4e34a0_1920.jpg');
+    background-size: cover;
+}
+.Music{
+    background-image: url('assets/girl-gd2fab622b_1920.jpg');
+    background-size: cover;
+}
+.Walks{
+    background-image: url('assets/walking-g6f19a8b6d_1920.jpg');
+    background-size: cover;
+}
+.Kayaking{
+    background-image: url('assets/kayak-gf391f13aa_1920.jpg');
+    background-size: cover;
+}
+.Writing{
+    background-image: url('assets/writing-g81654fd78_1920.jpg');
+    background-size: cover;
+}
+.Pictures{
+    background-image: url('assets/phone-gee632b396_1920.jpg');
+    background-size: cover;
+}
+/* Last section */
+.Last{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 30px 10px 30px;
+}
+.last_left{
+    flex-basis: 50%;
+    border-right: 1.5px solid #085073F7;
+    /* border: 1px solid red; */
+}
+.contact_bg{
+    /* border: 1px solid red; */
+    padding: 30px;
+    margin: 30px 10px 5px 80px;
+    color: #085073F7;
+    font-weight: bold;
+}
+.media{
+    color: #085073F7;
+    font-weight: bold;
+    margin: 20px 10px 5px 170px;
+}
+.social_icons{
+    font-size: 60px;
+    color: #93278F;
+}
+.right{
+    flex-basis: 50%;
+    padding: 0 0 0 20px;
+    /* border: 1px solid red; */
+}
+.form{
+    /* flex-basis: 50%; */
+    border: 1px solid #93278F;
+    border-radius: 10px;
+    padding: 20px 20px 20px 30px;
+    margin: 10px 25px 0px 5px;
+    box-shadow: 0px 0px 10px #93278F
+}
+.form_text{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 320px 20px 10px;
+    border: 1px groove #085073F7;
+    box-shadow: 0px 0px 1.5px #085073F7;
+    font-weight: bold;
+    background-color: white;
+}
+.top{
+    margin-top: 15px;
+}
+.inside{
+    padding: 90px 320px 90px 10px;
+}
+::placeholder{
+    color: #085073F7;
+}
+#submit{
+    margin: 10px 0 20px 375px;
+    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    background-color:#93278F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #93278F
+}
+.contact_bg{
+    background-color: #0850735C;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Footer */
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #085073F7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+}
+/* responsiveness */
