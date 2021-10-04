@@ -176,11 +176,20 @@ h2{
 .media{
     color: #085073F7;
     font-weight: bold;
-    margin: 20px 10px 5px 170px;
+    margin: 20px 10px 10px 170px;
 }
 .social_icons{
-    font-size: 60px;
+    font-size: 20px;
     color: #93278F;
+    margin-left: 150px;
+}
+.fa{
+    margin-right: 10px;
+}
+.circle-icon {
+    background: #e5c9e5;
+    padding: 7px;
+    border-radius: 50%;
 }
 .right{
     flex-basis: 50%;
