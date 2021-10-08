@@ -12,9 +12,8 @@
 body{
     width: 1920px;
     height: 5040px;
-    background:#fff;
     cursor:pointer;
-    margin-left: 40px;
+    margin: 0px;
 }
 
 #nav{
@@ -44,19 +43,16 @@ body{
     margin-left:30px;
 }
 a {
-    color:#93287f;
-}
-
-a:hover {
-    color:aquamarine;
+    color:plum;
+    text-decoration: none;
 }
 
 a:focus{
     color:brown;
 }
 
-a:visited {
-    color:purple;
+a:hover {
+    color:aquamarine;
 }
 
 a:active {
@@ -95,7 +91,7 @@ a:active {
     margin-bottom: 200px;
 }
 
-#hobbies-img{
+.hobbies-img{
     width: 17vw;
     height: 17vw;
     display: inline-flex;
@@ -128,7 +124,7 @@ a:active {
     font-size:20px;
 }
 
-#icon-img{
+.icon-img{
     width:1vw;
     height:1vw;
     margin:3px;
@@ -172,6 +168,6 @@ hr{
     font-size: 15px;
     margin-bottom: 0px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.11);
-    margin-top: 320px
+    margin-top: 400px
 
 }
