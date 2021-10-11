@@ -13,6 +13,9 @@ header ul li{
     display: inline;
     float: right;   
 }
+header ul li a{
+    text-decoration: none;
+}
 
 header ul{
     margin-top: -18px;
@@ -58,7 +61,7 @@ main .div1 .hello{
 main .back{
     border: 1px solid rgba(8, 100, 107, 0.911);
     color: white;
-    padding: 30px;
+    padding: 50px;
     background-color: rgba(8, 100, 107, 0.911);
     width: 200px;
     word-wrap: break-word;
@@ -101,9 +104,12 @@ main .contact .name{
     margin-left: 2%;
 }
 
-main .contact .name button{
+main .contact .name input{
     margin-bottom: 15px;
-    padding: 20px 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 40px;
     background-color: rgb(177, 174, 174);
     color: rgba(8, 100, 107, 0.911);
     font-weight: bold;

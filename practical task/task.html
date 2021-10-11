@@ -10,10 +10,10 @@
     <header>
         Adeshola Adetona
         <ul>
-            <li>Home</li>
-            <li>Background</li>
-            <li>Hobbies</li>
-            <li>Contact me</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Background</a></li>
+            <li><a href="#">Hobbies</a></li>
+            <li><a href="#">Contact me</a></li>
         </ul>
     </header>
 
@@ -43,23 +43,23 @@
                 <button>Smiling</button>
                 <img src="./img/smile.PNG" alt="smiling">
             </div>
-            <div class="bottom">               <button>Coding</button>
-            <img src="./img/code.PNG" alt="coding">
-                <button>Cooking</button>
-            <img src="./img/cook.PNG" alt="cooking">
-                <button>Playing</button>
-            <img src="./img/game.PNG" alt="playing games">
-                <button>Sewing</button>
-            <img src="./img/sew.PNG" alt="sewing">
+            <div class="bottom">                         <button>Coding</button>
+                <img src="./img/code.PNG" alt="coding">
+                    <button>Cooking</button>
+                <img src="./img/cook.PNG" alt="cooking">
+                    <button>Playing</button>
+                <img src="./img/game.PNG" alt="playing games">
+                    <button>Sewing</button>
+                <img src="./img/sew.PNG" alt="sewing">
             </div>
         </div>
 
         <h2>CONTACT ME</h2>
         <div class="contact">
             <div class="name">
-                <button style="padding: 20px 98px;">Name</button><br>
-                <button>Phone Number</button><br>
-                <button style="padding: 20px 84px;">Residence</button>
+                <input disabled id="namer" type="text" placeholder="Name:"></input><br>
+                <input disabled id="emailer" type="text" placeholder="Email:"></input><br>
+                <input disabled id="messager" type="text" placeholder="Message:"></input>
                <p class="social">On Social Media:</p><br>
                <ul>
                    <li><i style="margin-right: 20px;border: 1px dashed rgb(206, 22, 206); border-radius: 50%;padding: 5px; color: purple; background-color: rgb(233, 208, 233);" class="fa fa-facebook"></i></li>
@@ -71,10 +71,10 @@
             </div>
             <div class="parent-wrap">              
             <div class="wrapper">
-                <input type="text" placeholder="Your name"><br>
-                <input type="text" placeholder="Email"><br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Type message to send"></textarea> <br>
-                <button class="submit">Submit</button>
+                <input id="name" type="text" placeholder="Your name"><br>
+                <input id="email" type="text" placeholder="Email"><br>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Type message to send"></textarea> <br>
+                <button id="submit" class="submit">Submit</button>
             </div>
             </div>
         </div>
@@ -84,5 +84,6 @@
         All rights reserved-Adeshola Adetona
     </footer>
     
+    <script src="task.js"></script>
 </body>
 </html>
