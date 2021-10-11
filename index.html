@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Adetoro Simbiat Damilola Practical Task</title>
 </head>
 <body>
@@ -61,7 +62,7 @@
         <div class="hobby hobby1">
             <button class="btm" type="button">Football</button>
         </div>
-        <div class="hobby hobby2">
+        <div style="height: 180px;" class="hobby hobby2">
             <button class="btm" type="button">Eating</button>
         </div>
         <div class="hobby hobby3">
@@ -71,6 +72,7 @@
             <button class="btm" type="button">Reading</button>
         </div>
     </div>
+    <br> <br>
     <div>
         <div class="hobby hobby5">
             <button class="btm" type="button">Cooking</button>
@@ -91,14 +93,14 @@
     <div id="contact">
         <div class="me">CONTACT ME</div>
         <div class="block">
-            <div class="name">
-                Name
+            <div  class="name">
+               <p id="name"></p> 
             </div>
+            <div  class="name">
+               <p id="email"></p> 
+            </div >
             <div class="name">
-                Phone Number
-            </div>
-            <div class="name">
-                Residence
+                <p id="message" ></p> 
             </div>
             <div>
                 <h3 class="now">On Social Media</h3>
@@ -114,10 +116,11 @@
 
         </div>
         <div class="form block">
-            <div class="your to">Your Name</div>
-            <div class="your">Email</div>
-            <div class="type">Type Message to Send</div>
-            <button type="button">Submit</button>
+            <input value="" id="formname" class="your to" placeholder="Your Name" type="text">
+            <input id="formemail" class="your" placeholder="Email" type="text">
+            <textarea id="formessage" class="type" placeholder="Type Message to Send" type="text"></textarea>          
+            
+            <button id="submit" type="button">Submit</button>
 
         </div>
     </div>
@@ -126,8 +129,60 @@
         <button type="button">All rights reserved--Adetoro Simbiat Damilola</button>
 
     </div>
+
    
-    
+   <script>
+       var namee = document.getElementById("name")
+       var mail = document.getElementById("email")
+       var message = document.getElementById("message")
+       var fornmane = document.getElementById("formname")
+       var formemail = document.getElementById("formemail")
+       var formessage = document.getElementById("formessage")
+       
+       
+       var submit = document.getElementById("submit")
+       console.log(namee)
+       console.log(formname)
+
+
+
+       submit.onclick = function() {
+           console.log("clicked")
+           let lotname = document.getElementById("formname").value
+           var namee = document.getElementById("name")
+           var data = document.createElement("div")
+           data.innerText = lotname
+           namee.appendChild(data)
+
+       console.log(lotname)
+   
+
+       let getmail = document.getElementById("formemail").value
+       var mail = document.getElementById("email")
+       var data2 = document.createElement("div")
+       data2.innerText = getmail
+       mail.appendChild(data2)
+
+       console.log(getmail)
+     
+   
+
+       let getmessage = document.getElementById("formessage").value
+       var message = document.getElementById("message")      
+       var data3 = document.createElement("div")
+       data3.innerText = getmessage
+       message.appendChild(data3)
+
+
+       
+
+       console.log(getmessage)
+
+ 
+       }
+      
+      
+   </script> 
     
 </body>
 </html>
